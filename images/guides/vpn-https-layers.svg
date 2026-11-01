@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="350" viewBox="0 0 800 350" role="img" aria-labelledby="title desc">
+  <title id="title">Границы VPN-туннеля и HTTPS</title>
+  <desc id="desc">VPN-туннель соединяет устройство и VPN-сервер. HTTPS соединяет браузер и сайт через выбранный сетевой маршрут.</desc>
+  <defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto-start-reverse"><path d="M0 0 7 3.5 0 7Z" fill="#57766c"/></marker></defs>
+  <rect width="800" height="350" rx="20" fill="#f4f8ef"/>
+  <g font-family="system-ui,sans-serif" text-anchor="middle">
+    <text x="400" y="37" fill="#21483e" font-size="20" font-weight="700">У двух соединений разные конечные точки</text>
+    <path d="M145 108H435" stroke="#427b43" stroke-width="8" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <rect x="208" y="71" width="164" height="27" rx="8" fill="#e5f0db"/>
+    <text x="290" y="91" fill="#2b6132" font-size="16" font-weight="600">Туннель VPN</text>
+    <g fill="white" stroke="#cedcc6" stroke-width="2">
+      <rect x="42" y="144" width="196" height="93" rx="14"/>
+      <rect x="329" y="144" width="196" height="93" rx="14"/>
+      <rect x="601" y="144" width="157" height="93" rx="14"/>
+    </g>
+    <path d="M244 190H320M533 190H591" stroke="#57766c" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="140" y="183" fill="#21483e" font-size="18" font-weight="650">Устройство</text>
+    <text x="140" y="211" fill="#526c62" font-size="15">Браузер и VPN-клиент</text>
+    <text x="427" y="183" fill="#21483e" font-size="18" font-weight="650">VPN-сервер</text>
+    <text x="427" y="211" fill="#526c62" font-size="15">Выход из туннеля</text>
+    <text x="680" y="183" fill="#21483e" font-size="18" font-weight="650">Сайт</text>
+    <text x="680" y="211" fill="#526c62" font-size="15">HTTPS-сервер</text>
+    <path d="M140 252V286H680V252" stroke="#416a9e" stroke-width="3" fill="none"/>
+    <rect x="239" y="270" width="324" height="31" rx="8" fill="#e5edf8"/>
+    <text x="400" y="291" fill="#305581" font-size="16" font-weight="600">HTTPS: браузер ↔ сайт</text>
+    <text x="400" y="327" fill="#526c62" font-size="14">Область действия зависит от маршрутов и правил VPN-клиента.</text>
+  </g>
+</svg>

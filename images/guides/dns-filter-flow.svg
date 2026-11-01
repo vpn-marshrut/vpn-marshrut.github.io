@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="310" viewBox="0 0 800 310" role="img" aria-labelledby="title desc">
+  <title id="title">DNS-фильтрация и загрузка ресурса</title>
+  <desc id="desc">Приложение отправляет имя домена DNS-резолверу, который формирует ответ с учётом правил. Загрузка веб-ресурса выполняется отдельным соединением.</desc>
+  <defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 7 3.5 0 7Z" fill="#55774d"/></marker></defs>
+  <rect width="800" height="310" rx="20" fill="#f4f8ef"/>
+  <g font-family="system-ui,sans-serif" text-anchor="middle">
+    <text x="400" y="38" fill="#21483e" font-size="21" font-weight="700">На каком этапе работает DNS-фильтр</text>
+    <g fill="white" stroke="#cedcc6" stroke-width="2">
+      <rect x="30" y="82" width="210" height="113" rx="13"/>
+      <rect x="295" y="82" width="210" height="113" rx="13"/>
+      <rect x="560" y="82" width="210" height="113" rx="13"/>
+    </g>
+    <path d="M248 139H285M513 139H550" stroke="#55774d" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="135" y="117" fill="#21483e" font-size="18" font-weight="650">DNS-запрос</text>
+    <text x="135" y="148" fill="#526c62" font-size="16">Имя домена</text>
+    <text x="135" y="174" fill="#526c62" font-size="14">из приложения</text>
+    <text x="400" y="117" fill="#21483e" font-size="18" font-weight="650">Резолвер</text>
+    <text x="400" y="148" fill="#526c62" font-size="16">Проверка правил</text>
+    <text x="400" y="174" fill="#526c62" font-size="14">для доменного имени</text>
+    <text x="665" y="117" fill="#21483e" font-size="18" font-weight="650">DNS-ответ</text>
+    <text x="665" y="148" fill="#526c62" font-size="16">Адрес или ответ</text>
+    <text x="665" y="174" fill="#526c62" font-size="14">по правилам фильтра</text>
+    <rect x="50" y="220" width="700" height="57" rx="12" fill="#e5efdc"/>
+    <text x="400" y="245" fill="#345e36" font-size="16">Загрузка страницы или медиа — отдельное соединение.</text>
+    <text x="400" y="266" fill="#526c62" font-size="14">DNS-фильтр принимает решение о домене, а не об отдельном элементе страницы.</text>
+  </g>
+</svg>

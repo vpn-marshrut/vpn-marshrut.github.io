@@ -1,0 +1,5 @@
+# Sitemap for the configured destination.
+User-agent: *
+Allow: /
+Disallow: /search-index.json
+Sitemap: https://vpn-marshrut.github.io/sitemap-index.xml
